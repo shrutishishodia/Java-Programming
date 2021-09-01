@@ -1,0 +1,16 @@
+import java.util.*;
+ public class ABC  {
+    static void swap (int a , int b)
+    {
+        int temp = a;
+        a = b ;
+        b = temp ;
+        System.out.println ("Value of a is " + a + " and value of b is " + b);
+        
+    }
+    public static void main(String[] args)
+    {
+        int a = 9 , b = 5 ;
+        swap(a,b);
+    }
+}
